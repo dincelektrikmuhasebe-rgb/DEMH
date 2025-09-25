@@ -1,0 +1,36 @@
+.trapezoid-page-title {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+}
+
+.schemas-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.schema-wrapper {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 15px;
+    background-color: #fdfdfd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.schema-wrapper h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.trapezoid-svg {
+    display: block;
+    margin: 0 auto;
+}

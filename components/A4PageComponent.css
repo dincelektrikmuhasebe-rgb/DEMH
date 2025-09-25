@@ -1,0 +1,142 @@
+.a4-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.logo-container h1 {
+    margin: 0;
+    color: var(--primary-color);
+    font-size: 2.2rem;
+}
+
+.logo-container p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.customer-info {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.customer-info p {
+    margin: 2px 0;
+}
+
+.qr-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.order-info-top {
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.order-info-top p {
+    margin: 2px 0;
+    font-size: 0.9rem;
+}
+
+.qr-info-bottom {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.address-info {
+    text-align: right;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.qr-code {
+    width: 80px;
+    height: 80px;
+    align-self: center;
+}
+
+.a4-main {
+    flex-grow: 1;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.product-table th, .product-table td {
+    border: 1px solid var(--border-color);
+    padding: 8px;
+    text-align: left;
+}
+
+.product-table th {
+    background-color: #f2f2f2;
+    font-weight: 500;
+}
+
+.product-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.product-table tbody tr.min-m2-row {
+    color: #d93025;
+    font-weight: 500;
+}
+
+
+.a4-footer {
+    display: flex;
+    justify-content: flex-end; /* Totals are on the right now */
+    align-items: flex-end;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.9rem;
+    position: relative; /* For page number positioning */
+    width: 100%;
+    min-height: 80px; /* Ensure footer has space */
+}
+
+.totals-container {
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.totals-container h3 {
+    margin-top: 0;
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+
+.totals-container p {
+    margin: 5px 0;
+}
+
+.page-number {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.credit-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.55rem;
+    color: #888;
+    opacity: 0.75;
+    text-align: center;
+    white-space: nowrap;
+}

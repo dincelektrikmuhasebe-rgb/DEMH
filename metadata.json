@@ -1,0 +1,5 @@
+{
+  "name": "DNC-SIPARISGIRISEKRAN",
+  "description": "Kullanıcı girişiyle çalışan, sipariş listelerini dinamik olarak oluşturmak ve yazdırmak için kullanılan, modern bir web uygulaması.",
+  "requestFramePermissions": []
+}
